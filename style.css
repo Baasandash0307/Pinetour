@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{   
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #D8E4E9;
+}
+
+
+
+
+
+
+
+.main{
+    text-align: center;
+    width: 100%;
+    height: 110vh;
+    background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.25) 50%,
+      #dbeaf3 90%
+    ),
+    linear-gradient(0deg, rgba(157, 184, 218, 0.2), rgba(157, 184, 218, 0.2)),
+     url(image.png);
+    background-size: cover;
+    backdrop-filter: blur(4px);
+}
+.main h6{
+    font-size: 80px;
+    line-height: 80px;
+    text-align: center;
+    padding-top: 170px;
+    font-weight: 400; 
+    color: #E8EDF2B8;
+    font-family: "Bebas Neue", sans-serif;
+}
+.main h5{
+    font-family: Bebas Neue;
+    font-size: 250px;
+    font-weight: 400;
+    line-height: 250px;
+    text-align: center;
+    color: #FDFDFE;
+    font-family: "Bebas Neue", sans-serif;
+}
+.main h4{
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 64px;
+    text-align: center;
+    color: #FFFFFFCC;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+
+
+
+
+
+
+
+.navbar{
+    width: 100%;
+    height: 43.5px;
+    top: 30px;
+    left: 116px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    align-items: center ;
+
+}
+.navbar img{
+    width: 101px;
+    height: 35px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;;
+}
+.navbar p{
+    width: Fixed (40px)px;
+    height: Fixed (40px)px;
+    top: 3.5px;
+    left: 1164px;
+    padding: 13px 0px 0px 0px;
+    gap: 10px;
+    border-radius: 24px 0px 0px 0px;
+    opacity: 10px;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.7px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+.section-1{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background-color: #dbeaf3; 
+}
+
+.card{
+    width: 274px;
+    height: 370px;
+    border-radius: 40px;
+    font-size: 37px;
+    color: white;
+    font-family: Bebas Neue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    box-shadow: -10px -10px 1px #1F72AA75; 
+
+}   
+#card-1{
+    background-image: url(terhiin.jpg);
+    background-size: cover;
+    width: 274px;
+    height: 370px;
+}
+#card-2{
+    background-image: url(amar.jpeg);
+    background-size: cover;
+    width: 274px;
+    height: 370px;
+}
+#card-3{
+    background-image: url(huvsgul.webp);
+    background-size: cover;
+    width: 274px;
+    height: 370px;
+}
+#card-4{
+    background-image: url(horgo.jpg);
+    background-size: cover;
+    width: 274px;
+    height: 370px;
+}
+
+#card-1:hover{
+    background-image: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 40%
+      ), url(terhiin.jpg);
+}
+#card-2:hover{
+    background-image: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 40%
+      ), url(amar.jpeg);
+}
+#card-3:hover{
+    background-image: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 40%
+      ), url(huvsgul.webp);
+}
+#card-4:hover{
+    background-image: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 40%
+      ), url(horgo.jpg);
+}
+
+
+
+
+
+
+
+.section-2{
+    background-image: linear-gradient(
+        360deg,
+        rgba(111, 106, 106, 0.25) 70%,
+        #dbeaf3 100%
+      ),
+      linear-gradient(0deg, rgba(157, 184, 218, 0.2), rgba(157, 184, 218, 0.2)), url(map.png);
+    width: 100%;
+    height: 1100px;
+    gap: 10px;
+    background-size: 40% 70% cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.section-2 header{
+    width: 100%;
+    height: 90px;
+    padding-top: 120px;
+}
+.header h1{
+    font-size: 42px;
+    color: black;
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    padding-top: 120px;
+    font-weight: 600;
+    line-height: 50px;
+}
+.section-2 p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    font-family: "Roboto Mono", monospace;
+    padding-top: 10px;
+}
+
+.destination-box{
+    width: 1200px;
+    height: 640px;
+    top: 264px;
+    left: 120px;
+    gap: 0px;
+    opacity: 0px;
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 400px;
+}
+.destination{
+    width: 513px;
+    height: 640px;
+    gap: 20px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;    
+}
+.destination h3{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    color: black;  
+}
+.destination div{
+    width: 513px; 
+    height: 112px; 
+    align-items: center; 
+    display: flex;
+    border-radius: 120px;
+    padding: 30px 30px;
+    background-color: #8BB8C1CC;
+    font-family: "Roboto Mono", monospace;
+    flex-direction: column;
+} 
+.destination p{
+    font-size: 12px;
+    font-family: "Roboto Mono", monospace;
+    width: 94px;
+    height: 15px;
+}
+
+
+
+
+
+
+
+.ending{
+    width: 100%;
+    height: 1120px;
+    background: linear-gradient(
+        180deg,
+        #abadb3 10%,
+        #dcf2fd 90%
+      ),
+      linear-gradient(0deg, rgba(157, 184, 218, 0.2), rgba(157, 184, 218, 0.2))
+}
+.header-1 h1{
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-family: "Roboto Mono", monospace;
+    padding-top: 40px;
+}
+.header-1 p{
+    font-size: 20px;
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    padding-top: 10px;
+}
+.header-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+    padding-top: 80px;
+
+}
+.header-2 div{
+    width: 384px;
+    height: 527px;
+    background-color: #FAFBFC;
+    border-radius: 40px;
+}
+.header-2 title{
+    width: 384px;
+    height: 100px;
+    display: flex;
+    text-align: left;
+    justify-content: flex-start;
+}
