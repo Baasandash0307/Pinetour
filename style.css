@@ -333,3 +333,7 @@ a{
     display: flex;
     justify-content: center; 
 }
+.title h1{
+    display: flex;
+    
+}
